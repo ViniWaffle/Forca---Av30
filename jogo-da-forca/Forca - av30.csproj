@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>jogo_da_forca</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="foca-removebg-preview.png" />
+    <None Remove="forca-removebg-preview.png" />
+    <None Remove="forca.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="foca-removebg-preview.png" />
+    <Resource Include="forca-removebg-preview.png" />
+    <Resource Include="forca.png" />
+  </ItemGroup>
+
+</Project>
